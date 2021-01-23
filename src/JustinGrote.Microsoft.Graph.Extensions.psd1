@@ -12,7 +12,7 @@
 RootModule = 'JustinGrote.Microsoft.Graph.Extensions'
 
 # Version number of this module.
-ModuleVersion = '0.0.1'
+ModuleVersion = '0.0.2'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
@@ -30,7 +30,7 @@ CompanyName = 'Unknown'
 Copyright = '(c) Justin Grote @justinwgrote. All rights reserved.'
 
 # Description of the functionality provided by this module
-Description = 'Extends the Microsoft Graph module with additional cmdlets, mostly for convenience'
+Description = 'Extends the Microsoft Graph module with additional cmdlets, mostly for convenience. More detail at: https://github.com/justingrote/justingrote.microsoft.graph.extensions'
 
 # Minimum version of the PowerShell engine required by this module
 PowerShellVersion = '5.1'
