@@ -14,4 +14,5 @@ Export-ModuleMember $PublicFunctions
 
 #Enable consistencylevel Eventual
 #BUG: Remove when this is resolved: https://github.com/microsoftgraph/msgraph-sdk-powershell/issues/513
-$PSDefaultParameterValues['Get-Mg*:ConsistencyLevel'] = 'Eventual'
+Write-Host -Fore DarkCyan "JustinGrote GraphExtensions NOTE: This module automatically sets ConsistencyLevel to eventual to enable filters to work correctly. To disable this, use Disable-MgEventualConsistencyDefault. See this issue for more detail: https://github.com/microsoftgraph/msgraph-sdk-powershell/issues/513"
+$GLOBAL:PSDefaultParameterValues['Get-Mg*:ConsistencyLevel'] = 'Eventual'
